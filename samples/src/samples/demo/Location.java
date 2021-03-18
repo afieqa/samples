@@ -4,6 +4,7 @@ public class Location {
 	
 	private String area;
 	private String state;
+	private String locationID;
 	
 	public void setArea(String area) {
 		this.area = area;
@@ -19,6 +20,15 @@ public class Location {
 	
 	public String getState() {
 		return this.state;
+	}
+	
+	public void setLocationID(String locationID) {
+		this.locationID = locationID;
+		
+	}
+	
+	public String getLocationID() {
+		return this.locationID;
 	}
 
 }
